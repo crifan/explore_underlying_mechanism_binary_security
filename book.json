@@ -1,6 +1,6 @@
 {
   "title": "探究底层机制：二进制安全",
-  "description": "整理二进制安全，即PWN；先对二进制安全概述；再介绍相关基础知识，比如编程语言，包括汇编语言X86、ARM等；体系架构的寄存器X86、ARM和堆栈，以及可执行文件；再总结Windows相关的二进制安全，包括安全机制的ASLR、CFG、DEP、GS、SafeSEH、SEHOP，和攻击技术，包括缓冲区溢出、ROP、Heap spray、Shellcode等；再整理二进制相关工具，包括反汇编器的disassembler，反编译器的dnSpy、ILSpy，静态安全检工具的winchecksec，可执行文件工具的Exeinfo PE，查壳工具的Detect It Easy、PEiD，逆向工具的IDA、Ollydbg、WinDbg，内存修改工具的CE、MHS、ModifyMemory；最后附上参考资料。",
+  "description": "整理二进制安全，即PWN；先对二进制安全概述；再介绍相关基础知识，比如编程语言，包括汇编语言X86、ARM等；体系架构的寄存器X86、ARM和堆栈，以及可执行文件；再总结Windows相关的二进制安全，包括安全机制的ASLR、CFG、DEP、GS、SafeSEH、SEHOP，和攻击技术，包括缓冲区溢出、ROP、Heap spray、Shellcode等；再整理二进制相关工具，包括反编译器的dnSpy、ILSpy，静态安全检工具的winchecksec，可执行文件工具的Exeinfo PE，查壳工具的Detect It Easy、PEiD，逆向工具的IDA、Ollydbg、WinDbg，内存修改工具的CE、MHS、ModifyMemory；最后附上参考资料。",
   "pluginsConfig": {
     "autocover": {
       "title": "Gitbook演示"

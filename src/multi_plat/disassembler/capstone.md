@@ -21,8 +21,17 @@
   * 号称
     * Next Generation Disassembler Engine
     * 更好的下一代反汇编引擎
-  * 特别说明
-    * 著名的开源逆向工具`Radare2`以及商业逆向工具`IDA Pro`的三方插件都基于`Capstone`
+  * 谁用到了Capstone
+    * 著名的开源逆向工具`Radare2`
+    * 商业逆向工具`IDA Pro`的第三方插件
+    * `IntelliJ IDEA`
+    * `Qemu`
+    * `Binwalk`
+    * `Camal`：Coseinc恶意软件自动分析
+    * `Pyew`：Python恶意静态分析工具
+    * `Cuckoo`
+    * 另：`Kali Linux`中已集成
+    * 等
   * 主页
     * 官网
       * The Ultimate Disassembly Framework – Capstone – The Ultimate Disassembler
@@ -37,7 +46,7 @@
   * `MC`模块中有个反汇编引擎叫做`MCDisassembler`
     * `MC`=`Machine Code`
     * 机制：
-      * ![capstone_machine_code](../../../../assets/img/capstone_machine_code.png)
+      * ![capstone_machine_code](../../assets/img/capstone_machine_code.png)
   * 而`llvm`甚至还有个工具叫做：`llvm-mc`
     * 可以用于反汇编输入的二进制文件
 * `capstone`才用了`MCDisassembler`作为核心内容
@@ -56,7 +65,7 @@
 * 成套工具
   * 3件套
     * Logo
-        * ![capstone_logo_3_group](../../../../assets/img/capstone_logo_3_group.png)
+      * ![capstone_logo_3_group](../../assets/img/capstone_logo_3_group.png)
     * 3个项目
       * `Capstone disassembler`
         * Next Generation Disassembler Engine
@@ -67,11 +76,11 @@
       * `Keystone assembler`
         * http://keystone-engine.org
         * 流程
-          * ![keystone_assembler_flow](../../../../assets/img/keystone_assembler_flow.png)
+          * ![keystone_assembler_flow](../../assets/img/keystone_assembler_flow.png)
         * IDA插件
           * Keypatch – Keystone – The Ultimate Assembler
             * https://www.keystone-engine.org/keypatch/
-              * ![ida_plugin_keypatch](../../../../assets/img/ida_plugin_keypatch.png)
+              * ![ida_plugin_keypatch](../../assets/img/ida_plugin_keypatch.png)
         * 竞品
           * `Radare2`
             * Unix-like reverse engineering framework and commandline tools
@@ -89,5 +98,5 @@
             * Deobfuscator for movfuscated binaries
     * 效果：
       * Fundamental frameworks for Reverse Engineering
-      * ![binary_emulator_assembly](../../../../assets/img/binary_emulator_assembly.png)
-      * ![binary_emulator_assembly_hand_draw](../../../../assets/img/binary_emulator_assembly_hand_draw.jpg)
+      * ![binary_emulator_assembly](../../assets/img/binary_emulator_assembly.png)
+      * ![binary_emulator_assembly_hand_draw](../../assets/img/binary_emulator_assembly_hand_draw.jpg)

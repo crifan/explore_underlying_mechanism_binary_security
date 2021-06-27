@@ -8,7 +8,11 @@
     * 常见
       * `llvm`
       * `capstone`
-      * `Ollydbg`的`ODDisassm`
+        * 详见后续章节：[Capstone](../../../../multi_plat/disassembler/capstone.html)
+      * `Ollydbg`的`ODDisasm`
+        * `ODDisasm`= `Ollydbg Disassembler` = [Disasm()](http://www.ollydbg.de/Help/Disasm.htm)
+        * 官网
+          * [Assembling and disassembling](http://www.ollydbg.de/Help/i_Disasm.htm)
       * `BeaEngine`
       * `udis86`
       * `XDE`
