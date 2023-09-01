@@ -45,7 +45,7 @@
   * 工具
     * `Ollydbg`：动态追踪工具，插件较好较多
     * `Windbg`：用户态和内核态调试工具
-    * `IDA`：交互式反汇编器
+    * [IDA](https://book.crifan.org/books/reverse_tool_ida/website/)：交互式反汇编器
     * `PEID`：著名的查壳工具
     * `C32Asm`：反汇编程序，可直接修改软件内部代码，有十六进制编辑模式
   * 主要应用

@@ -27,3 +27,8 @@
   * 应用举例
     * 游戏破解
       * 即使不能过掉反外挂系统，也可以用dump下游戏内存静态分析出游戏明文收发包等重要函数
+
+---
+
+* 详见独立子教程
+  * [逆向利器：IDA](https://book.crifan.org/books/reverse_tool_ida/website/)

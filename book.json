@@ -1,6 +1,6 @@
 {
   "title": "探究底层机制：二进制安全",
-  "description": "整理二进制安全，即PWN；先对二进制安全概述；再介绍相关基础知识，比如编程语言，包括汇编语言X86、ARM等；体系架构的寄存器X86、ARM和堆栈，以及可执行文件；再总结Windows相关的二进制安全，包括安全机制的ASLR、CFG、DEP、GS、SafeSEH、SEHOP，和攻击技术，包括缓冲区溢出、ROP、Heap spray、Shellcode等；再整理二进制相关工具，包括反编译器的dnSpy、ILSpy，静态安全检工具的winchecksec，可执行文件工具的Exeinfo PE，查壳工具的Detect It Easy、PEiD，逆向工具的IDA、Ollydbg、WinDbg，内存修改工具的CE、MHS、ModifyMemory；最后附上参考资料。",
+  "description": "整理二进制安全，即PWN；先对二进制安全概述；再介绍相关基础知识，比如编程语言，包括汇编语言X86、ARM等；体系架构的寄存器X86、ARM和堆栈，以及可执行文件；再总结Windows相关的二进制安全，包括安全机制的CFG、DEP、GS、SafeSEH、SEHOP，和攻击技术，包括缓冲区溢出、ROP、Heap spray、Shellcode等；再整理二进制相关工具，包括反编译器的dnSpy、ILSpy，静态安全检工具的winchecksec，可执行文件工具的Exeinfo PE，查壳工具的Detect It Easy、PEiD，逆向工具的IDA、Ollydbg、WinDbg，内存修改工具的CE、MHS、ModifyMemory；以及通用的知识，比如安全机制中的ASLR最后附上参考资料。",
   "pluginsConfig": {
     "autocover": {
       "title": "Gitbook演示"
@@ -24,19 +24,12 @@
       ]
     },
     "sitemap-general": {
-      "prefix": "https://book.crifan.com/gitbook/explore_underlying_mechanism_binary_security/website/"
+      "prefix": "https://book.crifan.org/books/explore_underlying_mechanism_binary_security/website/"
     },
     "toolbar-button": {
-      "url": "http://book.crifan.com/books/explore_underlying_mechanism_binary_security/pdf/explore_underlying_mechanism_binary_security.pdf",
+      "url": "https://book.crifan.org/books/explore_underlying_mechanism_binary_security/pdf/explore_underlying_mechanism_binary_security.pdf",
       "icon": "fa-file-pdf-o",
       "label": "下载PDF"
-    },
-    "google-adsense": {
-      "ads": [
-        {
-          "client": "ca-pub-6626240105039250"
-        }
-      ]
     },
     "callouts": {
       "showTypeInHeader": false
@@ -90,16 +83,13 @@
       ]
     },
     "tbfed-pagefooter": {
-      "copyright": "crifan.com，使用<a href='https://creativecommons.org/licenses/by/4.0/deed.zh'>署名4.0国际(CC BY 4.0)协议</a>发布",
+      "copyright": "crifan.org，使用<a href='https://creativecommons.org/licenses/by/4.0/deed.zh'>署名4.0国际(CC BY 4.0)协议</a>发布",
       "modify_label": "最后更新：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
-    "ga": {
-      "token": "UA-28297199-1"
-    },
     "donate": {
-      "wechat": "https://www.crifan.com/files/res/crifan_com/crifan_wechat_pay.jpg",
-      "alipay": "https://www.crifan.com/files/res/crifan_com/crifan_alipay_pay.jpg",
+      "wechat": "https://www.crifan.org/files/res/crifan_com/crifan_wechat_pay.jpg",
+      "alipay": "https://www.crifan.org/files/res/crifan_com/crifan_alipay_pay.jpg",
       "title": "",
       "button": "打赏",
       "alipayText": "支付宝打赏给Crifan",
@@ -108,17 +98,16 @@
   },
   "author": "Crifan Li <admin@crifan.com>",
   "language": "zh-hans",
-  "gitbook": "3.2.3",
   "root": "./src",
   "links": {
     "sidebar": {
-      "主页": "http://www.crifan.com"
+      "主页": "http://www.crifan.org"
     }
   },
   "plugins": [
-    "google-adsense",
     "theme-comscore",
     "anchors",
+    "expandable-menu",
     "-lunr",
     "-search",
     "search-plus",
@@ -127,12 +116,11 @@
     "prism",
     "prism-themes",
     "github-buttons",
-    "splitter",
+    "-splitter",
+    "splitter-nosessionbutcookie",
     "-sharing",
     "sharing-plus",
     "tbfed-pagefooter",
-    "expandable-chapters-small",
-    "ga",
     "donate",
     "sitemap-general",
     "copy-code-button",

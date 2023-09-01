@@ -2,8 +2,7 @@
 
 * `ASLR`
   * = `Address Space Layout Randomization`=`地址空间布局随机化`
-  * 是什么：一个编译器参数
-    * 是一种针对缓冲区溢出的安全保护技术
+  * 是什么：是一种针对缓冲区溢出的安全保护技术
   * 背景
     * 没有ASLR时
       * 每次进程执行，加载到内容中，代码所处堆栈stack的位置都是相同的
@@ -23,16 +22,18 @@
       * 破解程序一般指的是，运行`shellcode`
   * 系统支持ASLR的情况
     * `Linux`
-    * `FreeBSD`
+      * `FreeBSD`
+    * `Mac`
     * `Windows`
       * `PE`头文件中会设置`IMAGE_DLL_CHARACTERISTICS_DYNAMIC_BASE`标示来说明其支持`ASLR`
   * 如何开启
-    * 语法：
-      * 开启：`/DYNAMICBASE`
-        * `Visual Studio`项目属性的配置
-          * ![aslr_dynamic_base_config](../../assets/img/aslr_dynamic_base_config.png)
-          * ![vs_aslr_enable](../../assets/img/vs_aslr_enable.jpg)
-      * 关闭：`/DYNAMICBASE:NO`
+    * Windows
+      * 语法：
+        * 开启：`/DYNAMICBASE`
+          * `Visual Studio`项目属性的配置
+            * ![aslr_dynamic_base_config](../../assets/img/aslr_dynamic_base_config.png)
+            * ![vs_aslr_enable](../../assets/img/vs_aslr_enable.jpg)
+        * 关闭：`/DYNAMICBASE:NO`
   * 使用此技术后，杀死某程序后重新开启
     * `Linux`：地址会改变
     * `Windows`：地址不会改变，重启系统才会改变

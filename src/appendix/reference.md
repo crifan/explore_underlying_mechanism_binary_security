@@ -91,4 +91,7 @@
 * [Udis86 Disassembler Library for x86 / x86-64](http://udis86.sourceforge.net/)
 * [Linux Udis86 反汇编引擎使用-云社区-华为云](https://bbs.huaweicloud.com/blogs/203549)
 * [Assembling and disassembling](http://www.ollydbg.de/Help/i_Disasm.htm)
+* [ELF文件格式 · Android逆向：静态分析](https://book.crifan.org/books/android_re_static_analysis/website/by_file_type/for_so/elf_format/)
+* [Mach-O](https://book.crifan.org/books/ios_re_static_analysis/website/analysis_content/bin_info/mach_o/)
+* [逆向利器：IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
 * 
